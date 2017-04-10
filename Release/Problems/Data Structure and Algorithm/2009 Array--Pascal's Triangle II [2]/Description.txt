@@ -1,0 +1,20 @@
+2009 Array--Pascal's Triangle II
+Difficulty 2/10
+Time Limit 1000ms
+
+¡¾Description¡¿
+Given an index k, return the kth row of the Pascal's triangle.
+
+For example, given k = 3,
+Return [1,3,3,1].
+
+Note:
+Could you optimize your algorithm to use only O(k) extra space?
+Return an array of size *returnSize.
+The returned array must be malloced, assume caller calls free().
+
+¡¾FrameWork¡¿
+#include <stdlib.h>
+int* getRow(int rowIndex, int* returnSize) {
+
+}

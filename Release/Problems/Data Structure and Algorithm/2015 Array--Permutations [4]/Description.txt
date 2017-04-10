@@ -1,0 +1,39 @@
+2015 Array--Permutations II
+Difficulty 4/10
+Time Limit 1000ms
+
+¡¾Description¡¿
+Given a collection of numbers that might contain duplicates, return all 
+possible unique permutations.
+
+For example,
+[1,2,3] have the following permutations:
+[
+  [1,2,3],
+  [1,3,2],
+  [2,1,3],
+  [2,3,1],
+  [3,1,2],
+  [3,2,1]
+]
+
+For example,
+[1,1,2] have the following unique permutations:
+[
+  [1,1,2],
+  [1,2,1],
+  [2,1,1]
+]
+
+Return an array of arrays of size *returnSize.
+Note: The returned array must be malloced, assume caller calls free().
+
+¡¾FrameWork¡¿
+C Version Only:
+#include <stdlib.h>
+int** permuteUnique(int* nums, int numsSize, int* returnSize) {
+
+}
+
+¡¾Source¡¿
+LeetCode 47

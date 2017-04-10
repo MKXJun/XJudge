@@ -1,0 +1,37 @@
+2010 Linked List--Insert
+难度 1/10
+
+【描述】
+给定一个链表，往指定位置插入一个节点，返回插入指向插入节点的指针。
+
+【样例】
+2->3->4
+val = 1, pos = 0
+
+【结果】
+1->2->3->4
+
+【样例】
+1->2->4
+val = 3, pos = 2
+
+【结果】
+1->2->3->4
+
+
+【框架】
+仅提供C语言版：
+#include <stdlib.h>
+
+struct ListNode {
+    int val;
+    struct ListNode * next;
+};
+
+struct ListNode * insert(struct ListNode * list, int pos, int val) {
+
+}
+
+【来源】
+X_Jun
+

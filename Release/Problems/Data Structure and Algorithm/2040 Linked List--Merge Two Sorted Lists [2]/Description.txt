@@ -1,0 +1,37 @@
+2018 Linked List--Merge Two Sorted Lists
+Difficulty 2/10
+
+¡¾Description¡¿
+Merge two sorted linked lists and return it as a new list. The new list should 
+be made by splicing together the nodes of the first two lists.
+
+¡¾Sample¡¿
+1->4->5->7
+2->3->5
+
+¡¾Result¡¿
+1->2->3->4->5->5->7
+
+
+¡¾Sample¡¿
+1->1->2->3->5->8
+2->4->6->8
+
+¡¾Result¡¿
+1->1->2->2->3->4->5->6->8->8
+
+¡¾FrameWork¡¿
+C Version Only:
+#include <stdlib.h>
+
+struct ListNode {
+    int val;
+    struct ListNode * next;
+};
+
+struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2) {
+
+}
+
+¡¾Source¡¿
+LeetCode 21

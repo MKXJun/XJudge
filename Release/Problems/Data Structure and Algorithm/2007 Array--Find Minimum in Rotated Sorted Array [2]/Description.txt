@@ -1,0 +1,28 @@
+2007 Array--Find Minimum in Rotated Sorted Array
+difficulty 2/10
+Limit Time 1000ms
+
+¡¾Description¡¿
+Suppose an array sorted in ascending order is rotated at some pivot unknown to 
+you beforehand.
+
+(i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).
+
+Find the minimum element.
+
+You may assume no duplicate exists in the array.
+
+¡¾Sample¡¿
+[3,5,6,0,1,2,4]
+
+¡¾Result¡¿
+0
+
+¡¾FrameWork¡¿
+C Version Only:
+int findMin(int* nums, int numsSize) {
+
+}
+
+¡¾Source¡¿
+LeetCode 153

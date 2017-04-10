@@ -1,0 +1,93 @@
+2032 String--Make String
+Difficulty 3/10
+Time Limit 1000ms
+
+【题目描述】
+在C++的STL中有string类，但C语言没有面向对象编程，我们需要模拟一个String的结构体并实现其部分功能。
+
+【FrameWork】
+C Version Only:
+#include <stdlib.h>
+#include <stdbool.h>
+
+typedef struct {
+	char * c_str;
+	int length;
+	int capacity;
+} String;
+
+//用于创建一个String对象，默认字符串为空，最好能预留空间
+String * StringCreate() {
+
+}
+
+//用于重新分配内存，调整的是数组实际能容纳的元素个数。该函数只允许在对数组元
+//素个数有修改，可能要超出或远低于实际容纳量的情况下才能调用它
+void StringReallocate(String * obj, int newSize) {
+
+}
+
+//将一个字符串赋给String，注意内存。
+void StringAssign(String * obj, const char * str) {
+
+}
+
+//将一个字符串拼接在String字符串尾部，注意内存。
+void StringAppend(String * obj, const char * str) {
+
+}
+
+//判断两个字符串是否相等，是则返回true，否则返回false
+bool StringEqual(String * obj, const char * str) {
+
+}
+
+//将一个字符放入Stirng尾部，注意内存
+void StringPushBack(String * obj, int ch) {
+
+}
+
+//将String尾部字符扔掉
+void StringPopBack(String * obj) {
+
+}
+
+//在索引pos处插入字符ch，后面元素右移
+void StringInsert(String * obj, int pos, int ch) {
+
+}
+
+//删去区间为[beg, end)的字符
+void StringErase(String * obj, size_t beg, size_t end) {
+
+}
+
+//清空字符串
+void StringClear(String * obj) {
+
+}
+
+//释放String结构体
+void StringFree(String * obj) {
+
+}
+
+/*****
+示例:
+String * Str = StringCreate();
+StringAssign(Str, "Hello ");        //"Hello "
+StringAppend(Str, "World!");        //"Hello World!"
+StringEqual(Str, "Hello World!");   //返回1
+StringPushBack(Str, '!');           //"Hello World!!"
+StringPopBack(Str);                 //"Hello World!"
+StringClear(Str);                      //""
+StringInsert(Str, 0, 'E');			
+StringInsert(Str, 0, 'A');
+StringInsert(Str, 1, 'C');
+StringInsert(Str, 1, 'B');
+StringInsert(Str, 3, 'D');          //"ABCDE"
+StringErase(Str, 2, 5);             //"AB"
+StringFree(Str);
+
+【Source】
+X_Jun

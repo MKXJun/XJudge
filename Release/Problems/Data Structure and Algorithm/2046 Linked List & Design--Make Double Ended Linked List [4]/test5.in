@@ -1,0 +1,25 @@
+create
+pushfront 10
+pushfront 9
+pushfront 8
+pushfront 7
+pushfront 6
+pushfront 5
+pushfront 4
+pushfront 3
+pushfront 2
+pushfront 1
+print
+clear
+pushback 10
+pushback 9
+pushback 8
+pushback 7
+pushback 6
+pushback 5
+pushback 4
+pushback 3
+pushback 2
+pushback 1
+print
+free

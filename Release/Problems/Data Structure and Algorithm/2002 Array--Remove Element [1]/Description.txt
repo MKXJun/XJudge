@@ -1,0 +1,50 @@
+2002 Array--Remove Element
+Difficulty 1/10
+Time Limit 1000ms
+
+¡¾Description¡¿
+Given an array and a value, remove all instances of that value in place 
+and return the new length.
+Do not allocate extra space for another array, you must do this in place 
+with constant memory.
+The order of elements can be changed. It doesn't matter what you leave 
+beyond the new length.
+
+Example:
+Given input array nums = [3,2,2,3],val = 3
+Your function should return length = 2, with the first two elements of 
+nums being 2.
+
+
+¡¾Sample¡¿
+[2, 4, 5, 4, 2, 3]
+val = 4
+¡¾Result¡¿
+[2, 5, 2, 3]
+return_val = 4
+
+
+¡¾Sample¡¿
+[1, 4, 2, 3, 2]
+val = 2
+¡¾Result¡¿
+[1, 4, 3]
+return_val = 3
+
+
+
+¡¾Framework¡¿
+C Version£º
+int removeElement(int* nums, int numsSize, int val) {
+    
+}
+
+C++ Version£º
+#include <vector>
+using namespace std;
+int removeElement(vector<int>& nums, int val) {
+        
+}
+
+¡¾Source¡¿
+LeetCode 27

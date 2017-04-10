@@ -1,0 +1,30 @@
+create
+pushback 1
+pushback 2
+pushback 3
+pushback 4
+pushback 5
+pushback 6
+pushback 7
+pushback 8
+pushback 9
+pushback 10
+pushback 11
+pushback 12
+pushback 13
+pushback 14
+pushback 15
+pushback 16
+pushback 17
+pushback 18
+pushback 19
+pushback 20
+erase 0 2
+print
+erase 15 18
+print
+erase 3 10
+print
+erase 2 6
+print
+free

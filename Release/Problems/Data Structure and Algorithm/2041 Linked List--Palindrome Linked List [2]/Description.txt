@@ -1,0 +1,38 @@
+2020 Linked List--Palindrome Linked List
+Difficulty 2/10
+
+¡¾Description¡¿
+Given a singly linked list, determine if it is a palindrome.
+
+Follow up:
+Could you do it in O(n) time and O(1) space?
+
+¡¾Sample¡¿
+1->3->2->3->1
+
+¡¾Result¡¿
+true
+
+
+¡¾Sample¡¿
+1->4->3
+
+¡¾Result¡¿
+false
+
+¡¾FrameWork¡¿
+C Version Only:
+#include <stdlib.h>
+#include <stdbool.h>
+
+struct ListNode {
+    int val;
+    struct ListNode * next;
+};
+
+bool isPalindrome(struct ListNode* head) {
+
+}
+
+¡¾Source¡¿
+LeetCode 234

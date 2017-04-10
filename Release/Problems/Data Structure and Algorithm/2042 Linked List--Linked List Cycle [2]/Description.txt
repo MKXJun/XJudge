@@ -1,0 +1,33 @@
+2019 Linked List--Linked List Cycle
+Difficulty 2/10
+
+¡¾Description¡¿
+Given a linked list, determine if it has a cycle in it.
+
+Follow up:
+Can you solve it without using extra space?
+
+¡¾Sample¡¿
+      2
+    ¨J ¨K
+5->1     4
+    ¨I ¨L
+      3
+¡¾Result¡¿
+true
+
+¡¾FrameWork¡¿
+C Version Only:
+#include <stdlib.h>
+#include <stdbool.h>
+struct ListNode {
+    int val;
+    struct ListNode * next;
+};
+
+bool hasCycle(struct ListNode *head) {
+
+}
+
+¡¾Source¡¿
+LeetCode 141

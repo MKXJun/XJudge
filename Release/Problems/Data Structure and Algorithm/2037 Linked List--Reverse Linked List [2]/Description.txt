@@ -1,0 +1,31 @@
+2016 Linked List--Reverse Linked List
+Difficulty 2/10
+
+¡¾Description¡¿
+Reverse a singly linked list.
+
+Hint:
+A linked list can be reversed either iteratively or recursively. Could you
+implement both?
+
+¡¾Sample¡¿
+7->2->4->5
+
+¡¾Result¡¿
+5->4->2->7
+
+¡¾FrameWork¡¿
+C Version Only:
+#include <stdlib.h>
+
+struct ListNode {
+    int val;
+    struct ListNode * next;
+};
+
+struct ListNode* reverseList(struct ListNode* head) {
+
+}
+
+¡¾Source¡¿
+LeetCode 206

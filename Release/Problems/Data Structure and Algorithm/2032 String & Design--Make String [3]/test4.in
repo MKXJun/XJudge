@@ -1,0 +1,14 @@
+create
+assign Discrete_Mathematics_and_its_Applications
+erase 9 21
+print
+erase 9 13
+print
+erase 0 9
+print
+erase 3 16
+print
+equal its
+clear
+print
+free

@@ -1,0 +1,28 @@
+2022 Longest Common Prefix
+Difficulty 2/10
+Time Limit 1000ms
+
+¡¾Description¡¿
+Write a function to find the longest common prefix string amongst an array of 
+strings.
+
+
+¡¾Sample¡¿
+"abandon"
+"absolute"
+"abrupt"
+"absorb"
+"absent"
+
+¡¾Result¡¿
+"ab"
+
+¡¾FrameWork¡¿
+#include <stdlib.h>
+#include <string.h>
+char* longestCommonPrefix(char** strs, int strsSize) {
+
+}
+
+¡¾Source¡¿
+LeetCode 14

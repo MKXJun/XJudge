@@ -1,0 +1,57 @@
+2013 Array--Spiral Matrix II
+Difficulty 3/10
+Time Limit 1000ms
+
+¡¾Description¡¿
+Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
+
+For example,
+Given n = 3,
+
+You should return the following matrix:
+[
+ [ 1, 2, 3 ],
+ [ 8, 9, 4 ],
+ [ 7, 6, 5 ]
+]
+
+¡¾Sample¡¿
+2
+
+¡¾Result¡¿
+[
+  [1, 2],
+  [4, 3]
+]
+
+¡¾Sample¡¿
+4
+
+¡¾Result¡¿
+[
+  [1, 2, 3, 4],
+  [12,13,14,5],
+  [11,16,15,6],
+  [10,9, 8, 7]
+]
+
+¡¾Framework¡¿
+C Version:
+/**
+ * Return an array of arrays.
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+#include <stdlib.h>
+int** generateMatrix(int n) {
+    
+}
+
+C++ Version:
+#include <vector>
+using namespace std;
+vector<vector<int> > generateMatrix(int n) {
+
+}
+
+¡¾Source¡¿
+LeetCode 59

@@ -1,0 +1,21 @@
+2021 String--Valid Variable Name
+Difficulty 2/10
+Time Limit 1000ms
+
+【Description】
+输入一个字符串，判断其是否为C语言的合法变量名
+
+【Sample】
+wiggles //合法的
+2cat    //不合法的
+
+【FrameWork】
+C Version Only:
+#include <string.h>
+#include <stdbool.h>
+bool isValid(const char * str) {
+
+}
+
+【Source】
+X_Jun

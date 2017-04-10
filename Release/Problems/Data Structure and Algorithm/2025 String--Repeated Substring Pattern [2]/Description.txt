@@ -1,0 +1,36 @@
+2025 String--Repeated Substring Pattern
+Difficulty 2/10
+Time Limit 1000ms
+
+¡¾Description¡¿
+Given a non-empty string check if it can be constructed by taking a substring 
+of it and appending multiple copies of the substring together. You may assume 
+the given string consists of lowercase English letters only and its length will 
+not exceed 100.
+
+Example 1:
+Input: "abab"
+Output: True
+Explanation: It's the substring "ab" twice.
+===============================================================================
+Example 2:
+Input: "aba"
+Output: False
+===============================================================================
+Example 3:
+Input: "abcabcabcabc"
+Output: True
+Explanation: It's the substring "abc" four times. (And the substring "abcabc" 
+twice.)
+===============================================================================
+
+¡¾FrameWork¡¿
+C Version Only:
+#include <string.h>
+#include <stdbool.h>
+bool repeatedSubstringPattern(char* str) {
+
+}
+
+¡¾Source¡¿
+LeetCode 459

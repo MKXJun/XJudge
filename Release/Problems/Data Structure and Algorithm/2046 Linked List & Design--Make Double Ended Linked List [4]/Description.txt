@@ -1,0 +1,70 @@
+Linked List--Make Double Ended Linked List
+Difficulty 4/10
+Time Limit 1000ms
+
+【问题描述】
+在C++的STL中有list类，但C语言没有面向对象编程，我们需要模拟一个List的双向链表结构体并实现其部分功能。
+
+【FrameWork】
+C Version Only:
+#include <stdlib.h>
+
+typedef struct ListNode {
+	int val;
+	struct ListNode * next;
+	struct ListNode * prev;
+} ListNode;
+
+typedef struct {
+	ListNode * head;
+	ListNode * tail;
+	int size;
+} List;
+
+//创建一个空的链表
+List * ListCreate() {
+
+}
+
+//将一个元素插入链表第一个元素的前面
+void ListPushFront(List * list, int val) {
+
+}
+
+//删去链表前面的第一个元素
+void ListPopFront(List * list) {
+
+}
+
+//将一个元素插入链表末尾元素的后面
+void ListPushBack(List * list, int val) {
+
+}
+
+//删去链表后面最后一个元素
+void ListPopBack(List * list) {
+
+}
+
+//将一个元素插入第pos + 1个元素的前面
+void ListInsert(List * list, int pos, int val) {
+
+}
+
+//将区间在[beg, end)的元素删去
+void ListErase(List * list, int beg, int end) {
+
+}
+
+//清空整个链表
+void ListClear(List * list) { 
+
+}
+
+//释放双向链表
+void ListFree(List * list) {
+
+}
+
+【Source】
+X_Jun

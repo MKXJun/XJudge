@@ -1,0 +1,31 @@
+2012 Linked List--Remove Duplicates from Sorted List
+Difficulty 1/10
+
+¡¾Description¡¿
+Given a sorted linked list, delete all duplicates such that each element
+appear only once.
+
+For example,
+Given 1->1->2, return 1->2.
+Given 1->1->2->3->3, return 1->2->3.
+
+¡¾Sample¡¿
+1->2->2->3->3
+
+¡¾result¡¿
+1->2->3
+
+¡¾Framework¡¿
+C Version:
+#include <stdlib.h>
+struct ListNode {
+    int val;
+    struct ListNode * next;
+};
+
+struct ListNode* deleteDuplicates(struct ListNode* head) {
+
+}
+
+¡¾Source¡¿
+LeetCode 83

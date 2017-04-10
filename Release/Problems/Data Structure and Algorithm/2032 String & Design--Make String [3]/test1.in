@@ -1,0 +1,28 @@
+create
+assign a
+print
+assign abc
+print
+assign abcde
+print
+assign abcdefg
+print
+assign abcdefghi
+print
+assign abcdefghijk
+print
+assign abcdefghijklmn
+print
+assign abcdefghijklmnop
+print
+assign abcdefghijklmnopqr
+print
+assign abcdefghijklmnopqrst
+print
+assign abcdefghijklmnopqrstuv
+print
+assign abcdefghijklmnopqrstuvwx
+print
+assign abcdefghijklmnopqrstuvwxyz
+print
+free

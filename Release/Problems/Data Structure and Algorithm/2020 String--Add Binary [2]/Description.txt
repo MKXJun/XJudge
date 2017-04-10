@@ -1,0 +1,29 @@
+2020 Add Binary
+Difficulty 2/10
+Time Limit 1000ms
+
+¡¾Description¡¿
+For example,
+a = "11"
+b = "1"
+Return "100".
+
+
+    11
+ +   1
+-------
+   100
+
+Note: You must allocate memory for the result and return it because the test 
+program will call free() function.
+
+¡¾FrameWork¡¿
+C Version Only:
+#include <string.h>
+#include <stdlib.h>
+char* addBinary(char* a, char* b) {
+
+}
+
+¡¾Source¡¿
+LeetCode 67

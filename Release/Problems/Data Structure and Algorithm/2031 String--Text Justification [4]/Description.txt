@@ -1,0 +1,74 @@
+2031 String--Text Justification
+Difficulty 4/10
+Time Limit 1000ms
+
+¡¾Description¡¿
+Given an array of words and a length L, format the text such that each line has 
+exactly L characters and is fully (left and right) justified.
+
+You should pack your words in a greedy approach; that is, pack as many words as
+ you can in each line. Pad extra spaces ' ' when necessary so that each line 
+has exactly L characters.
+
+Extra spaces between words should be distributed as evenly as possible. If the 
+number of spaces on a line do not divide evenly between words, the empty slots 
+on the left will be assigned more spaces than the slots on the right.
+
+For the last line of text, it should be left justified and no extra space is 
+inserted between words.
+
+
+Corner Cases:
+A line other than the last line might contain only one word. What should you do 
+in this case?
+In this case, that line should be left-justified.
+
+¡¾Sample¡¿
+words: ["This", "is", "an", "example", "of", "text", "justification."]
+Length: 16.
+
+¡¾Result¡¿
+[
+   "This    is    an",
+   "example  of text",
+   "justification.  "
+]
+
+
+¡¾Sample¡¿
+word: ["Talk", "is", "cheap,", "show", "me", "your", "code."]
+Length: 13.
+
+¡¾Result¡¿
+[
+   "Talk       is",
+   "cheap,   show",
+   "me your code."
+]
+
+
+¡¾Sample¡¿
+word: ["abcdefghijklmn", "abc", "def", "ghi"]
+Length: 16.
+
+¡¾Result¡¿
+[
+   "abcdefghijklmn  ",
+   "abc def ghi     "
+]
+
+¡¾FrameWork¡¿
+C Version Only:
+/**
+ * Return an array of size *returnSize.
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+#include <stdlib.h>
+#include <string.h>
+char ** fullJustify(char ** words, int wordsSize, int maxWidth, 
+int * returnSize) {
+
+}
+
+¡¾Source¡¿
+LeetCode 68

@@ -1,0 +1,34 @@
+2027 ZigZag Conversion
+Difficulty 3/10
+Time Limit 1000ms
+
+¡¾Description¡¿
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+And then read line by line: "PAHNAPLSIIGYIR"
+
+Note:The return string must be malloced, assume caller calls free().
+
+¡¾Sample¡¿
+UVKGOJZUFLQPM
+rows = 4
+
+¡¾Result¡¿
+U     Z     M
+V   J U   P
+K O   F Q
+G     L
+
+¡¾FrameWork¡¿
+C Version Only:
+#include <stdlib.h>
+#include <string.h>
+char* convert(char* s, int numRows) {
+
+}
+
+¡¾Source¡¿
+LeetCode 6

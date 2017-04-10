@@ -1,0 +1,47 @@
+2012 Array--Spiral Matrix
+Difficulty 3/10
+Time Limit 1000ms
+
+¡¾Description¡¿
+Given a matrix of m x n elements (m rows, n columns), return all elements 
+of the matrix in spiral order.
+
+For example,
+Given the following matrix:
+[
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+
+You should return [1,2,3,6,9,8,7,4,5].
+
+¡¾Sample¡¿
+[
+  [1, 2, 3, 4],
+  [5, 6, 7, 8],
+  [9, 10, 11, 12]
+]
+
+¡¾Result¡¿
+[1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7]
+
+¡¾Framework¡¿
+C Verson:
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+#include <stdlib.h>
+int* spiralOrder(int** matrix, int matrixRowSize, int matrixColSize) {
+    
+}
+
+C++ Verson:
+#include <vector>
+using namespace std;
+vector<int> spiralOrder(vector<vector<int> >& matrix) {
+
+}
+
+¡¾Source¡¿
+Leetcode 54

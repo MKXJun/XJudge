@@ -1,0 +1,29 @@
+2011 Linked List--Delete Node
+难度 1/10
+
+【描述】
+给定一个链表，往指定位置删除一个节点，返回指向根节点的指针。
+
+【样例】
+1->2->3->4
+pos = 2
+
+【结果】
+1->2->4
+
+【框架】
+仅提供C语言版：
+#include <stdlib.h>
+
+struct ListNode {
+    int val;
+    struct ListNode * next;
+};
+
+struct ListNode * delete_node(struct ListNode * list, int pos) {
+
+}
+
+【来源】
+X_Jun
+

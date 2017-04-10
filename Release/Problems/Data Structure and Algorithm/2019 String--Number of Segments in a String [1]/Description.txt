@@ -1,0 +1,29 @@
+2019 Number of Segments in a String
+Difficulty 1/10
+Time Limit 1000ms
+
+¡¾Description¡¿
+Count the number of segments in a string, where a segment is defined to be a contiguous sequence of non-space characters.
+
+Please note that the string does not contain any non-printable characters.
+
+Example:
+
+Input: "Hello, my name is John"
+Output: 5
+
+Here are 5 segments:
+Hello,
+my
+name
+is
+John
+
+¡¾FrameWork¡¿
+#include <ctype.h>
+int countSegments(char * s) {
+
+}
+
+¡¾Source¡¿
+LeetCode 434

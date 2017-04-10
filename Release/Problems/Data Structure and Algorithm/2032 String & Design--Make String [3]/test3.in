@@ -1,0 +1,10 @@
+create
+insert 0 G
+insert 0 A
+insert 1 D
+insert 2 E
+insert 1 B
+insert 2 C
+insert 5 F
+print
+free
